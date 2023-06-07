@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featured_project2s",
+  "info": {
+    "singularName": "featured-project2",
+    "pluralName": "featured-project2s",
+    "displayName": "featuredProject2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
